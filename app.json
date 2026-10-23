@@ -1,0 +1,123 @@
+{
+  "version": "0.3",
+  "kind": "app",
+  "generatedAt": "2026-10-23T12:55:44.205Z",
+  "item": {
+    "title": "West Virginia Controlled Substance Monitoring Program Data Dashboard",
+    "subtitle": "Controlled-substance dispensing indicators by county and year"
+  },
+  "map": {
+    "type": "webmap",
+    "path": "./map.json"
+  },
+  "app": {
+    "template": "nova-app",
+    "preset": "dashboard",
+    "showHeader": true,
+    "theme": {
+      "mode": "light",
+      "accent": "default"
+    },
+    "layout": {
+      "left": {
+        "hidden": false,
+        "width": "440px",
+        "title": "Dispensing measures",
+        "collapsed": false,
+        "blocks": [
+          {
+            "type": "customMount",
+            "id": "dashboard-charts",
+            "title": "Controlled substance summaries"
+          }
+        ]
+      },
+      "right": {
+        "hidden": false,
+        "width": "520px",
+        "title": "County and map",
+        "collapsed": false,
+        "blocks": [
+          {
+            "type": "customMount",
+            "id": "county-dashboard",
+            "title": "Patient county of residence"
+          },
+          {
+            "type": "customMount",
+            "id": "trend-dashboard",
+            "title": "Doses by drug type"
+          }
+        ]
+      }
+    },
+    "widgets": [
+      {
+        "id": "home",
+        "type": "home",
+        "slot": "top-left",
+        "config": {}
+      },
+      {
+        "id": "legend",
+        "type": "legend",
+        "slot": "bottom-left",
+        "config": {}
+      },
+      {
+        "id": "default-layer-list",
+        "type": "layerList",
+        "slot": "top-right",
+        "config": {}
+      },
+      {
+        "id": "default-basemap-gallery",
+        "type": "basemapGallery",
+        "slot": "top-right",
+        "config": {}
+      }
+    ],
+    "interactions": [],
+    "behaviors": [
+      {
+        "id": "csmp-dashboard",
+        "label": "Interactive CSMP dashboard summaries",
+        "bundlePath": "./runtime/behaviors/csmp-dashboard-7da904dcb5760d1e.js",
+        "sourceSha256": "7da904dcb5760d1e3695ec0fb76c55573651240892b8d3961cba1313cc5262d1",
+        "modulePaths": [],
+        "config": {
+          "pdmpLayerId": "PDMP19_5720",
+          "trendLayerId": "DrugClassYear19_9356"
+        },
+        "mounts": [
+          "dashboard-charts",
+          "county-dashboard",
+          "trend-dashboard"
+        ],
+        "ownedLayerIds": [],
+        "interactions": [],
+        "installedAt": "2026-10-23T13:30:04.884Z"
+      }
+    ]
+  },
+  "nova": {
+    "basename": "1f8b1132-63da-4e6c-9bc3-ff49aa6829c0",
+    "presentationMode": "app",
+    "ownedGraphicsLayerIds": [],
+    "origin": {
+      "portalUrl": "https://www.arcgis.com",
+      "mapId": "output-d9f42dd1-70ee-424b-a88e-db9d12c0e6c1",
+      "mapName": "WV Board of Pharmacy CSMP Dashboard",
+      "viewMode": "2d",
+      "capturedAt": "2026-10-23T13:29:20.722Z"
+    },
+    "sourceSelection": {
+      "mode": "all"
+    },
+    "unsupportedLayers": [],
+    "degradedFeatures": [],
+    "notes": [
+      "Opened from portal item 5bcff549ad3948479e4a8c8167bac5f1 at https://www.arcgis.com/sharing/rest."
+    ]
+  }
+}

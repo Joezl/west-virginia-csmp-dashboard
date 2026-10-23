@@ -1,0 +1,18 @@
+{
+  "kind": "arcgis-nova-deployable-app",
+  "version": "0.1",
+  "generatedAt": "2026-10-23T14:05:58.038Z",
+  "title": "West Virginia Controlled Substance Monitoring Program Data Dashboard",
+  "authMode": "oauth",
+  "entry": "index.html",
+  "sourceAppPath": "outputs/apps/2026-10-23T12-55-44-1f8b1132-63da-4e6c-9bc3-ff49aa6829c0/index.html",
+  "files": {
+    "app": "app.json",
+    "map": "map.json",
+    "runtime": "app.js",
+    "auth": "standalone-auth.js"
+  },
+  "portalUrl": "https://www.arcgis.com",
+  "appId": "hPedEhQ3WPhOvMgJ",
+  "deploymentUrl": "https://joezl.github.io/west-virginia-csmp-dashboard/"
+}

@@ -1,0 +1,2895 @@
+{
+  "operationalLayers": [
+    {
+      "id": "DrugClassYear19_9356",
+      "opacity": 1,
+      "title": "DrugClassYear19",
+      "url": "https://services9.arcgis.com/alg0O9qhVJ8fDK02/arcgis/rest/services/DrugClassYear19/FeatureServer/0",
+      "visibility": false,
+      "itemId": "94c98c2db4974858a31ba8b6932584ad",
+      "layerType": "ArcGISFeatureLayer",
+      "layerDefinition": {
+        "fieldConfigurations": [
+          {
+            "name": "fillyear",
+            "fieldFormat": {
+              "type": "number",
+              "useGrouping": "always"
+            }
+          },
+          {
+            "name": "TotalDoses",
+            "fieldFormat": {
+              "type": "number",
+              "useGrouping": "always"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "18781494691-layer-9",
+      "opacity": 1,
+      "title": "Group Layer",
+      "layers": [
+        {
+          "id": "1878138c12f-layer-4",
+          "showLegend": true,
+          "opacity": 0.92,
+          "disablePopup": true,
+          "title": "WV County Boundaries",
+          "url": "https://services2.arcgis.com/xLpB90lOmCXYDAWo/arcgis/rest/services/WV_Counties/FeatureServer/0",
+          "itemId": "be4df6243bf648e39fa8f241482324c4",
+          "layerType": "ArcGISFeatureLayer",
+          "refreshInterval": 0,
+          "layerDefinition": {
+            "minScale": 0,
+            "maxScale": 0,
+            "featureReduction": null,
+            "fieldConfigurations": [
+              {
+                "name": "FIPS",
+                "fieldFormat": {
+                  "type": "number",
+                  "maximumFractionDigits": 0,
+                  "useGrouping": "always"
+                }
+              },
+              {
+                "alias": "Districts",
+                "name": "Districts",
+                "fieldFormat": {
+                  "type": "number",
+                  "maximumFractionDigits": 0,
+                  "useGrouping": "always"
+                }
+              },
+              {
+                "name": "Shape__Area",
+                "fieldFormat": {
+                  "type": "number",
+                  "useGrouping": "always"
+                }
+              },
+              {
+                "name": "Shape__Length",
+                "fieldFormat": {
+                  "type": "number",
+                  "useGrouping": "always"
+                }
+              }
+            ],
+            "drawingInfo": {
+              "labelingInfo": [],
+              "renderer": {
+                "authoringInfo": {},
+                "type": "simple",
+                "symbol": {
+                  "type": "esriSFS",
+                  "color": [
+                    196,
+                    194,
+                    194,
+                    82
+                  ],
+                  "outline": {
+                    "type": "esriSLS",
+                    "color": [
+                      54,
+                      54,
+                      54,
+                      255
+                    ],
+                    "width": 0.75,
+                    "style": "esriSLSSolid"
+                  },
+                  "style": "esriSFSSolid"
+                }
+              }
+            }
+          },
+          "showLabels": true,
+          "popupInfo": {
+            "popupElements": [
+              {
+                "type": "fields",
+                "description": "",
+                "fieldInfos": [
+                  {
+                    "fieldName": "OBJECTID",
+                    "isEditable": true,
+                    "label": "OBJECTID",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "AREA_",
+                    "isEditable": true,
+                    "label": "AREA_",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "PERIMETER",
+                    "isEditable": true,
+                    "label": "PERIMETER",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "DEP_24K_",
+                    "isEditable": true,
+                    "label": "DEP_24K_",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "DEP_24K_ID",
+                    "isEditable": true,
+                    "label": "DEP_24K_ID",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "NAME",
+                    "isEditable": true,
+                    "label": "NAME",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "STATE",
+                    "isEditable": true,
+                    "label": "STATE",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "FIPS",
+                    "isEditable": true,
+                    "label": "FIPS",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "POP1986",
+                    "isEditable": true,
+                    "label": "POP1986",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "POP2000",
+                    "isEditable": true,
+                    "label": "POP2000",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "POP_CHNG",
+                    "isEditable": true,
+                    "label": "POP_CHNG",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "POPCH_PCT",
+                    "isEditable": true,
+                    "label": "POPCH_PCT",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "MALES",
+                    "isEditable": true,
+                    "label": "MALES",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "FEMALES",
+                    "isEditable": true,
+                    "label": "FEMALES",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "AMER_IND",
+                    "isEditable": true,
+                    "label": "AMER_IND",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "ASIAN",
+                    "isEditable": true,
+                    "label": "ASIAN",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "BLACK",
+                    "isEditable": true,
+                    "label": "BLACK",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "HAWN_PL",
+                    "isEditable": true,
+                    "label": "HAWN_PL",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "HISPANIC",
+                    "isEditable": true,
+                    "label": "HISPANIC",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "MULT_RACE",
+                    "isEditable": true,
+                    "label": "MULT_RACE",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "OTHER",
+                    "isEditable": true,
+                    "label": "OTHER",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "WHITE",
+                    "isEditable": true,
+                    "label": "WHITE",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "HOUSEHOLDS",
+                    "isEditable": true,
+                    "label": "HOUSEHOLDS",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "AVG_HH_SZ",
+                    "isEditable": true,
+                    "label": "AVG_HH_SZ",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "HSE_UNITS",
+                    "isEditable": true,
+                    "label": "HSE_UNITS",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "OWNER_OCC",
+                    "isEditable": true,
+                    "label": "OWNER_OCC",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "RENTER_OCC",
+                    "isEditable": true,
+                    "label": "RENTER_OCC",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "VACANT",
+                    "isEditable": true,
+                    "label": "VACANT",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "Districts",
+                    "isEditable": true,
+                    "label": "Districts",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "CO_CODE",
+                    "isEditable": true,
+                    "label": "CO_CODE",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "Shape_Leng",
+                    "isEditable": true,
+                    "label": "Shape_Leng",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "Shape__Area",
+                    "isEditable": true,
+                    "label": "Shape__Area",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "Shape__Length",
+                    "isEditable": true,
+                    "label": "Shape__Length",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "County",
+                    "isEditable": true,
+                    "label": "County",
+                    "tooltip": "",
+                    "visible": true
+                  }
+                ],
+                "title": ""
+              }
+            ],
+            "expressionInfos": [],
+            "fieldInfos": [
+              {
+                "fieldName": "OBJECTID",
+                "isEditable": true,
+                "label": "OBJECTID",
+                "visible": true
+              },
+              {
+                "fieldName": "AREA_",
+                "isEditable": true,
+                "label": "AREA_",
+                "visible": true
+              },
+              {
+                "fieldName": "PERIMETER",
+                "isEditable": true,
+                "label": "PERIMETER",
+                "visible": true
+              },
+              {
+                "fieldName": "DEP_24K_",
+                "isEditable": true,
+                "label": "DEP_24K_",
+                "visible": true
+              },
+              {
+                "fieldName": "DEP_24K_ID",
+                "isEditable": true,
+                "label": "DEP_24K_ID",
+                "visible": true
+              },
+              {
+                "fieldName": "NAME",
+                "isEditable": true,
+                "label": "NAME",
+                "visible": true
+              },
+              {
+                "fieldName": "STATE",
+                "isEditable": true,
+                "label": "STATE",
+                "visible": true
+              },
+              {
+                "fieldName": "FIPS",
+                "isEditable": true,
+                "label": "FIPS",
+                "visible": true
+              },
+              {
+                "fieldName": "POP1986",
+                "isEditable": true,
+                "label": "POP1986",
+                "visible": true
+              },
+              {
+                "fieldName": "POP2000",
+                "isEditable": true,
+                "label": "POP2000",
+                "visible": true
+              },
+              {
+                "fieldName": "POP_CHNG",
+                "isEditable": true,
+                "label": "POP_CHNG",
+                "visible": true
+              },
+              {
+                "fieldName": "POPCH_PCT",
+                "isEditable": true,
+                "label": "POPCH_PCT",
+                "visible": true
+              },
+              {
+                "fieldName": "MALES",
+                "isEditable": true,
+                "label": "MALES",
+                "visible": true
+              },
+              {
+                "fieldName": "FEMALES",
+                "isEditable": true,
+                "label": "FEMALES",
+                "visible": true
+              },
+              {
+                "fieldName": "AMER_IND",
+                "isEditable": true,
+                "label": "AMER_IND",
+                "visible": true
+              },
+              {
+                "fieldName": "ASIAN",
+                "isEditable": true,
+                "label": "ASIAN",
+                "visible": true
+              },
+              {
+                "fieldName": "BLACK",
+                "isEditable": true,
+                "label": "BLACK",
+                "visible": true
+              },
+              {
+                "fieldName": "HAWN_PL",
+                "isEditable": true,
+                "label": "HAWN_PL",
+                "visible": true
+              },
+              {
+                "fieldName": "HISPANIC",
+                "isEditable": true,
+                "label": "HISPANIC",
+                "visible": true
+              },
+              {
+                "fieldName": "MULT_RACE",
+                "isEditable": true,
+                "label": "MULT_RACE",
+                "visible": true
+              },
+              {
+                "fieldName": "OTHER",
+                "isEditable": true,
+                "label": "OTHER",
+                "visible": true
+              },
+              {
+                "fieldName": "WHITE",
+                "isEditable": true,
+                "label": "WHITE",
+                "visible": true
+              },
+              {
+                "fieldName": "HOUSEHOLDS",
+                "isEditable": true,
+                "label": "HOUSEHOLDS",
+                "visible": true
+              },
+              {
+                "fieldName": "AVG_HH_SZ",
+                "isEditable": true,
+                "label": "AVG_HH_SZ",
+                "visible": true
+              },
+              {
+                "fieldName": "HSE_UNITS",
+                "isEditable": true,
+                "label": "HSE_UNITS",
+                "visible": true
+              },
+              {
+                "fieldName": "OWNER_OCC",
+                "isEditable": true,
+                "label": "OWNER_OCC",
+                "visible": true
+              },
+              {
+                "fieldName": "RENTER_OCC",
+                "isEditable": true,
+                "label": "RENTER_OCC",
+                "visible": true
+              },
+              {
+                "fieldName": "VACANT",
+                "isEditable": true,
+                "label": "VACANT",
+                "visible": true
+              },
+              {
+                "fieldName": "Districts",
+                "isEditable": true,
+                "label": "Districts",
+                "visible": true
+              },
+              {
+                "fieldName": "CO_CODE",
+                "isEditable": true,
+                "label": "CO_CODE",
+                "visible": true
+              },
+              {
+                "fieldName": "Shape_Leng",
+                "isEditable": true,
+                "label": "Shape_Leng",
+                "visible": true
+              },
+              {
+                "fieldName": "Shape__Area",
+                "isEditable": true,
+                "label": "Shape__Area",
+                "visible": true
+              },
+              {
+                "fieldName": "Shape__Length",
+                "isEditable": true,
+                "label": "Shape__Length",
+                "visible": true
+              },
+              {
+                "fieldName": "County",
+                "isEditable": true,
+                "label": "County",
+                "tooltip": "",
+                "visible": true
+              }
+            ],
+            "title": "{NAME}"
+          }
+        },
+        {
+          "id": "PDMP19_5720",
+          "opacity": 1,
+          "title": "PDMP 2019",
+          "url": "https://services9.arcgis.com/alg0O9qhVJ8fDK02/arcgis/rest/services/PDMP19/FeatureServer/0",
+          "visibility": true,
+          "itemId": "95a7956f61f14d15b29cd9996af6930d",
+          "layerType": "ArcGISFeatureLayer",
+          "layerDefinition": {
+            "minScale": 11243762.120756,
+            "maxScale": 0,
+            "featureReduction": null,
+            "fieldConfigurations": [
+              {
+                "alias": "fillyear",
+                "name": "fillyear",
+                "fieldFormat": {
+                  "type": "number",
+                  "useGrouping": "always"
+                }
+              },
+              {
+                "alias": "state",
+                "name": "state"
+              },
+              {
+                "name": "Alprazolam",
+                "fieldFormat": {
+                  "type": "number",
+                  "useGrouping": "always"
+                }
+              },
+              {
+                "name": "Amphetamine",
+                "fieldFormat": {
+                  "type": "number",
+                  "useGrouping": "always"
+                }
+              },
+              {
+                "name": "Baclofen",
+                "fieldFormat": {
+                  "type": "number",
+                  "useGrouping": "always"
+                }
+              },
+              {
+                "name": "Buprenorphine",
+                "fieldFormat": {
+                  "type": "number",
+                  "useGrouping": "always"
+                }
+              },
+              {
+                "name": "Butorphanol",
+                "fieldFormat": {
+                  "type": "number",
+                  "useGrouping": "always"
+                }
+              },
+              {
+                "name": "Carisoprodol",
+                "fieldFormat": {
+                  "type": "number",
+                  "useGrouping": "always"
+                }
+              },
+              {
+                "name": "Chlordiazepoxide",
+                "fieldFormat": {
+                  "type": "number",
+                  "useGrouping": "always"
+                }
+              },
+              {
+                "name": "Clobazam",
+                "fieldFormat": {
+                  "type": "number",
+                  "useGrouping": "always"
+                }
+              },
+              {
+                "name": "Clonazepam",
+                "fieldFormat": {
+                  "type": "number",
+                  "useGrouping": "always"
+                }
+              },
+              {
+                "name": "Clorazepate",
+                "fieldFormat": {
+                  "type": "number",
+                  "useGrouping": "always"
+                }
+              },
+              {
+                "name": "Codeine",
+                "fieldFormat": {
+                  "type": "number",
+                  "useGrouping": "always"
+                }
+              },
+              {
+                "name": "Dexmethylphenidate",
+                "fieldFormat": {
+                  "type": "number",
+                  "useGrouping": "always"
+                }
+              },
+              {
+                "name": "Dextroamphetamine",
+                "fieldFormat": {
+                  "type": "number",
+                  "useGrouping": "always"
+                }
+              },
+              {
+                "name": "Diazepam",
+                "fieldFormat": {
+                  "type": "number",
+                  "useGrouping": "always"
+                }
+              },
+              {
+                "name": "Dihydrocodeine",
+                "fieldFormat": {
+                  "type": "number",
+                  "useGrouping": "always"
+                }
+              },
+              {
+                "name": "Estazolam",
+                "fieldFormat": {
+                  "type": "number",
+                  "useGrouping": "always"
+                }
+              },
+              {
+                "name": "Fentanyl_LA",
+                "fieldFormat": {
+                  "type": "number",
+                  "useGrouping": "always"
+                }
+              },
+              {
+                "name": "Fentanyl_SA",
+                "fieldFormat": {
+                  "type": "number",
+                  "useGrouping": "always"
+                }
+              },
+              {
+                "name": "Flurazepam",
+                "fieldFormat": {
+                  "type": "number",
+                  "useGrouping": "always"
+                }
+              },
+              {
+                "name": "Gabapentin",
+                "fieldFormat": {
+                  "type": "number",
+                  "useGrouping": "always"
+                }
+              },
+              {
+                "name": "Hydrocodone_LA",
+                "fieldFormat": {
+                  "type": "number",
+                  "useGrouping": "always"
+                }
+              },
+              {
+                "name": "Hydrocodone_SA",
+                "fieldFormat": {
+                  "type": "number",
+                  "useGrouping": "always"
+                }
+              },
+              {
+                "name": "Hydromorphone_LA",
+                "fieldFormat": {
+                  "type": "number",
+                  "useGrouping": "always"
+                }
+              },
+              {
+                "name": "Hydromorphone_SA",
+                "fieldFormat": {
+                  "type": "number",
+                  "useGrouping": "always"
+                }
+              },
+              {
+                "name": "Lisdexamfetamine",
+                "fieldFormat": {
+                  "type": "number",
+                  "useGrouping": "always"
+                }
+              },
+              {
+                "name": "Lorazepam",
+                "fieldFormat": {
+                  "type": "number",
+                  "useGrouping": "always"
+                }
+              },
+              {
+                "name": "Meperidine",
+                "fieldFormat": {
+                  "type": "number",
+                  "useGrouping": "always"
+                }
+              },
+              {
+                "name": "Methadone",
+                "fieldFormat": {
+                  "type": "number",
+                  "useGrouping": "always"
+                }
+              },
+              {
+                "name": "Methylphenidate",
+                "fieldFormat": {
+                  "type": "number",
+                  "useGrouping": "always"
+                }
+              },
+              {
+                "name": "Morphine_LA",
+                "fieldFormat": {
+                  "type": "number",
+                  "useGrouping": "always"
+                }
+              },
+              {
+                "name": "Morphine_SA",
+                "fieldFormat": {
+                  "type": "number",
+                  "useGrouping": "always"
+                }
+              },
+              {
+                "name": "Naloxone",
+                "fieldFormat": {
+                  "type": "number",
+                  "useGrouping": "always"
+                }
+              },
+              {
+                "name": "Opium",
+                "fieldFormat": {
+                  "type": "number",
+                  "useGrouping": "always"
+                }
+              },
+              {
+                "name": "Oxazepam",
+                "fieldFormat": {
+                  "type": "number",
+                  "useGrouping": "always"
+                }
+              },
+              {
+                "name": "Oxycodone_LA",
+                "fieldFormat": {
+                  "type": "number",
+                  "useGrouping": "always"
+                }
+              },
+              {
+                "name": "Oxycodone_SA",
+                "fieldFormat": {
+                  "type": "number",
+                  "useGrouping": "always"
+                }
+              },
+              {
+                "name": "Oxymorphone_LA",
+                "fieldFormat": {
+                  "type": "number",
+                  "useGrouping": "always"
+                }
+              },
+              {
+                "name": "C_Opioids",
+                "fieldFormat": {
+                  "type": "number",
+                  "useGrouping": "always"
+                }
+              },
+              {
+                "name": "C_Benzodiazepines",
+                "fieldFormat": {
+                  "type": "number",
+                  "useGrouping": "always"
+                }
+              },
+              {
+                "name": "C_Stimulants",
+                "fieldFormat": {
+                  "type": "number",
+                  "useGrouping": "always"
+                }
+              },
+              {
+                "name": "Sch_CII",
+                "fieldFormat": {
+                  "type": "number",
+                  "useGrouping": "always"
+                }
+              },
+              {
+                "name": "Sch_CIII",
+                "fieldFormat": {
+                  "type": "number",
+                  "useGrouping": "always"
+                }
+              },
+              {
+                "name": "Sch_CIV",
+                "fieldFormat": {
+                  "type": "number",
+                  "useGrouping": "always"
+                }
+              },
+              {
+                "name": "Sch_CV",
+                "fieldFormat": {
+                  "type": "number",
+                  "useGrouping": "always"
+                }
+              },
+              {
+                "name": "P_Insurance",
+                "fieldFormat": {
+                  "type": "number",
+                  "useGrouping": "always"
+                }
+              },
+              {
+                "name": "P_Medicaid",
+                "fieldFormat": {
+                  "type": "number",
+                  "useGrouping": "always"
+                }
+              },
+              {
+                "name": "P_Medicare",
+                "fieldFormat": {
+                  "type": "number",
+                  "useGrouping": "always"
+                }
+              },
+              {
+                "name": "P_Other_Cash_Insurance",
+                "fieldFormat": {
+                  "type": "number",
+                  "useGrouping": "always"
+                }
+              },
+              {
+                "name": "P_Private_Pay",
+                "fieldFormat": {
+                  "type": "number",
+                  "useGrouping": "always"
+                }
+              },
+              {
+                "name": "P_Workers",
+                "fieldFormat": {
+                  "type": "number",
+                  "useGrouping": "always"
+                }
+              },
+              {
+                "name": "P_Military",
+                "fieldFormat": {
+                  "type": "number",
+                  "useGrouping": "always"
+                }
+              },
+              {
+                "name": "P_NA",
+                "fieldFormat": {
+                  "type": "number",
+                  "useGrouping": "always"
+                }
+              },
+              {
+                "name": "P_Indian_Nations",
+                "fieldFormat": {
+                  "type": "number",
+                  "useGrouping": "always"
+                }
+              },
+              {
+                "name": "Unknown_Gender",
+                "fieldFormat": {
+                  "type": "number",
+                  "useGrouping": "always"
+                }
+              },
+              {
+                "name": "Male",
+                "fieldFormat": {
+                  "type": "number",
+                  "useGrouping": "always"
+                }
+              },
+              {
+                "name": "Female",
+                "fieldFormat": {
+                  "type": "number",
+                  "useGrouping": "always"
+                }
+              },
+              {
+                "name": "MME_0_19",
+                "fieldFormat": {
+                  "type": "number",
+                  "useGrouping": "always"
+                }
+              },
+              {
+                "name": "MME_20_49",
+                "fieldFormat": {
+                  "type": "number",
+                  "useGrouping": "always"
+                }
+              },
+              {
+                "name": "MME_50_89",
+                "fieldFormat": {
+                  "type": "number",
+                  "useGrouping": "always"
+                }
+              },
+              {
+                "name": "MME_ge90",
+                "fieldFormat": {
+                  "type": "number",
+                  "useGrouping": "always"
+                }
+              },
+              {
+                "name": "DS_g30",
+                "fieldFormat": {
+                  "type": "number",
+                  "useGrouping": "always"
+                }
+              },
+              {
+                "name": "D_0_3",
+                "fieldFormat": {
+                  "type": "number",
+                  "useGrouping": "always"
+                }
+              },
+              {
+                "name": "D_4_7",
+                "fieldFormat": {
+                  "type": "number",
+                  "useGrouping": "always"
+                }
+              },
+              {
+                "name": "D_8_14",
+                "fieldFormat": {
+                  "type": "number",
+                  "useGrouping": "always"
+                }
+              },
+              {
+                "name": "D_15_21",
+                "fieldFormat": {
+                  "type": "number",
+                  "useGrouping": "always"
+                }
+              },
+              {
+                "name": "D_22_30",
+                "fieldFormat": {
+                  "type": "number",
+                  "useGrouping": "always"
+                }
+              },
+              {
+                "name": "Oxymorphone_SA",
+                "fieldFormat": {
+                  "type": "number",
+                  "useGrouping": "always"
+                }
+              },
+              {
+                "name": "Pentazocine",
+                "fieldFormat": {
+                  "type": "number",
+                  "useGrouping": "always"
+                }
+              },
+              {
+                "name": "Pregabalin",
+                "fieldFormat": {
+                  "type": "number",
+                  "useGrouping": "always"
+                }
+              },
+              {
+                "name": "Tapentadol_LA",
+                "fieldFormat": {
+                  "type": "number",
+                  "useGrouping": "always"
+                }
+              },
+              {
+                "name": "Tapentadol_SA",
+                "fieldFormat": {
+                  "type": "number",
+                  "useGrouping": "always"
+                }
+              },
+              {
+                "name": "Temazepam",
+                "fieldFormat": {
+                  "type": "number",
+                  "useGrouping": "always"
+                }
+              },
+              {
+                "name": "Tramadol_LA",
+                "fieldFormat": {
+                  "type": "number",
+                  "useGrouping": "always"
+                }
+              },
+              {
+                "name": "Tramadol_SA",
+                "fieldFormat": {
+                  "type": "number",
+                  "useGrouping": "always"
+                }
+              },
+              {
+                "name": "Triazolam",
+                "fieldFormat": {
+                  "type": "number",
+                  "useGrouping": "always"
+                }
+              },
+              {
+                "name": "Zolpidem",
+                "fieldFormat": {
+                  "type": "number",
+                  "useGrouping": "always"
+                }
+              }
+            ],
+            "drawingInfo": {
+              "renderer": {
+                "authoringInfo": {},
+                "type": "simple",
+                "visualVariables": [
+                  {
+                    "type": "sizeInfo",
+                    "valueExpression": "$view.scale",
+                    "stops": [
+                      {
+                        "size": 31.02383075324488,
+                        "value": 144447.638572
+                      },
+                      {
+                        "size": 24.8190646025959,
+                        "value": 1155581.108577
+                      },
+                      {
+                        "size": 12.40953230129795,
+                        "value": 9244648.868618
+                      },
+                      {
+                        "size": 6.204766150648975,
+                        "value": 73957190.948944
+                      }
+                    ]
+                  }
+                ],
+                "symbol": {
+                  "type": "esriSMS",
+                  "color": [
+                    89,
+                    89,
+                    89,
+                    3
+                  ],
+                  "angle": 0,
+                  "xoffset": 0,
+                  "yoffset": 0,
+                  "size": 19.5,
+                  "style": "esriSMSCircle",
+                  "outline": {
+                    "type": "esriSLS",
+                    "color": [
+                      77,
+                      77,
+                      77,
+                      0
+                    ],
+                    "width": 0,
+                    "style": "esriSLSSolid"
+                  }
+                }
+              }
+            }
+          },
+          "effect": null,
+          "showLabels": true,
+          "popupInfo": {
+            "popupElements": [
+              {
+                "type": "fields",
+                "description": "",
+                "fieldInfos": [
+                  {
+                    "fieldName": "county",
+                    "isEditable": true,
+                    "label": "County",
+                    "tooltip": "",
+                    "visible": true
+                  },
+                  {
+                    "fieldFormat": {
+                      "type": "number",
+                      "maximumFractionDigits": 0,
+                      "useGrouping": "always"
+                    },
+                    "fieldName": "Alprazolam",
+                    "format": {
+                      "digitSeparator": true,
+                      "places": 0
+                    },
+                    "isEditable": true,
+                    "label": "Alprazolam",
+                    "tooltip": "",
+                    "visible": true
+                  },
+                  {
+                    "fieldFormat": {
+                      "type": "number",
+                      "maximumFractionDigits": 0,
+                      "useGrouping": "always"
+                    },
+                    "fieldName": "Amphetamine",
+                    "format": {
+                      "digitSeparator": true,
+                      "places": 0
+                    },
+                    "isEditable": true,
+                    "label": "Amphetamine",
+                    "tooltip": "",
+                    "visible": true
+                  },
+                  {
+                    "fieldFormat": {
+                      "type": "number",
+                      "maximumFractionDigits": 0,
+                      "useGrouping": "always"
+                    },
+                    "fieldName": "Baclofen",
+                    "format": {
+                      "digitSeparator": true,
+                      "places": 0
+                    },
+                    "isEditable": true,
+                    "label": "Baclofen",
+                    "tooltip": "",
+                    "visible": true
+                  },
+                  {
+                    "fieldFormat": {
+                      "type": "number",
+                      "maximumFractionDigits": 0,
+                      "useGrouping": "always"
+                    },
+                    "fieldName": "Buprenorphine",
+                    "format": {
+                      "digitSeparator": true,
+                      "places": 0
+                    },
+                    "isEditable": true,
+                    "label": "Buprenorphine",
+                    "tooltip": "",
+                    "visible": true
+                  },
+                  {
+                    "fieldFormat": {
+                      "type": "number",
+                      "maximumFractionDigits": 0,
+                      "useGrouping": "always"
+                    },
+                    "fieldName": "Butorphanol",
+                    "format": {
+                      "digitSeparator": true,
+                      "places": 0
+                    },
+                    "isEditable": true,
+                    "label": "Butorphanol",
+                    "tooltip": "",
+                    "visible": true
+                  },
+                  {
+                    "fieldFormat": {
+                      "type": "number",
+                      "maximumFractionDigits": 0,
+                      "useGrouping": "always"
+                    },
+                    "fieldName": "Carisoprodol",
+                    "format": {
+                      "digitSeparator": true,
+                      "places": 0
+                    },
+                    "isEditable": true,
+                    "label": "Carisoprodol",
+                    "tooltip": "",
+                    "visible": true
+                  },
+                  {
+                    "fieldFormat": {
+                      "type": "number",
+                      "maximumFractionDigits": 0,
+                      "useGrouping": "always"
+                    },
+                    "fieldName": "Chlordiazepoxide",
+                    "format": {
+                      "digitSeparator": true,
+                      "places": 0
+                    },
+                    "isEditable": true,
+                    "label": "Chlordiazepoxide",
+                    "tooltip": "",
+                    "visible": true
+                  },
+                  {
+                    "fieldFormat": {
+                      "type": "number",
+                      "maximumFractionDigits": 0,
+                      "useGrouping": "always"
+                    },
+                    "fieldName": "Clobazam",
+                    "format": {
+                      "digitSeparator": true,
+                      "places": 0
+                    },
+                    "isEditable": true,
+                    "label": "Clobazam",
+                    "tooltip": "",
+                    "visible": true
+                  },
+                  {
+                    "fieldFormat": {
+                      "type": "number",
+                      "maximumFractionDigits": 0,
+                      "useGrouping": "always"
+                    },
+                    "fieldName": "Clonazepam",
+                    "format": {
+                      "digitSeparator": true,
+                      "places": 0
+                    },
+                    "isEditable": true,
+                    "label": "Clonazepam",
+                    "tooltip": "",
+                    "visible": true
+                  },
+                  {
+                    "fieldFormat": {
+                      "type": "number",
+                      "maximumFractionDigits": 0,
+                      "useGrouping": "always"
+                    },
+                    "fieldName": "Clorazepate",
+                    "format": {
+                      "digitSeparator": true,
+                      "places": 0
+                    },
+                    "isEditable": true,
+                    "label": "Clorazepate",
+                    "tooltip": "",
+                    "visible": true
+                  },
+                  {
+                    "fieldFormat": {
+                      "type": "number",
+                      "maximumFractionDigits": 0,
+                      "useGrouping": "always"
+                    },
+                    "fieldName": "Codeine",
+                    "format": {
+                      "digitSeparator": true,
+                      "places": 0
+                    },
+                    "isEditable": true,
+                    "label": "Codeine",
+                    "tooltip": "",
+                    "visible": true
+                  },
+                  {
+                    "fieldFormat": {
+                      "type": "number",
+                      "maximumFractionDigits": 0,
+                      "useGrouping": "always"
+                    },
+                    "fieldName": "Dexmethylphenidate",
+                    "format": {
+                      "digitSeparator": true,
+                      "places": 0
+                    },
+                    "isEditable": true,
+                    "label": "Dexmethylphenidate",
+                    "tooltip": "",
+                    "visible": true
+                  },
+                  {
+                    "fieldFormat": {
+                      "type": "number",
+                      "maximumFractionDigits": 0,
+                      "useGrouping": "always"
+                    },
+                    "fieldName": "Dextroamphetamine",
+                    "format": {
+                      "digitSeparator": true,
+                      "places": 0
+                    },
+                    "isEditable": true,
+                    "label": "Dextroamphetamine",
+                    "tooltip": "",
+                    "visible": true
+                  },
+                  {
+                    "fieldFormat": {
+                      "type": "number",
+                      "maximumFractionDigits": 0,
+                      "useGrouping": "always"
+                    },
+                    "fieldName": "Diazepam",
+                    "format": {
+                      "digitSeparator": true,
+                      "places": 0
+                    },
+                    "isEditable": true,
+                    "label": "Diazepam",
+                    "tooltip": "",
+                    "visible": true
+                  },
+                  {
+                    "fieldFormat": {
+                      "type": "number",
+                      "maximumFractionDigits": 0,
+                      "useGrouping": "always"
+                    },
+                    "fieldName": "Dihydrocodeine",
+                    "format": {
+                      "digitSeparator": true,
+                      "places": 0
+                    },
+                    "isEditable": true,
+                    "label": "Dihydrocodeine",
+                    "tooltip": "",
+                    "visible": true
+                  },
+                  {
+                    "fieldFormat": {
+                      "type": "number",
+                      "maximumFractionDigits": 0,
+                      "useGrouping": "always"
+                    },
+                    "fieldName": "Estazolam",
+                    "format": {
+                      "digitSeparator": true,
+                      "places": 0
+                    },
+                    "isEditable": true,
+                    "label": "Estazolam",
+                    "tooltip": "",
+                    "visible": true
+                  },
+                  {
+                    "fieldFormat": {
+                      "type": "number",
+                      "maximumFractionDigits": 0,
+                      "useGrouping": "always"
+                    },
+                    "fieldName": "Fentanyl_LA",
+                    "format": {
+                      "digitSeparator": true,
+                      "places": 0
+                    },
+                    "isEditable": true,
+                    "label": "Fentanyl (Long Acting)",
+                    "tooltip": "",
+                    "visible": true
+                  },
+                  {
+                    "fieldFormat": {
+                      "type": "number",
+                      "maximumFractionDigits": 0,
+                      "useGrouping": "always"
+                    },
+                    "fieldName": "Fentanyl_SA",
+                    "format": {
+                      "digitSeparator": true,
+                      "places": 0
+                    },
+                    "isEditable": true,
+                    "label": "Fentanyl (Short Acting)",
+                    "tooltip": "",
+                    "visible": true
+                  },
+                  {
+                    "fieldFormat": {
+                      "type": "number",
+                      "maximumFractionDigits": 0,
+                      "useGrouping": "always"
+                    },
+                    "fieldName": "Flurazepam",
+                    "format": {
+                      "digitSeparator": true,
+                      "places": 0
+                    },
+                    "isEditable": true,
+                    "label": "Flurazepam",
+                    "tooltip": "",
+                    "visible": true
+                  },
+                  {
+                    "fieldFormat": {
+                      "type": "number",
+                      "maximumFractionDigits": 0,
+                      "useGrouping": "always"
+                    },
+                    "fieldName": "Gabapentin",
+                    "format": {
+                      "digitSeparator": true,
+                      "places": 0
+                    },
+                    "isEditable": true,
+                    "label": "Gabapentin",
+                    "tooltip": "",
+                    "visible": true
+                  },
+                  {
+                    "fieldFormat": {
+                      "type": "number",
+                      "maximumFractionDigits": 0,
+                      "useGrouping": "always"
+                    },
+                    "fieldName": "Hydrocodone_LA",
+                    "format": {
+                      "digitSeparator": true,
+                      "places": 0
+                    },
+                    "isEditable": true,
+                    "label": "Hydrocodone (Long Acting)",
+                    "tooltip": "",
+                    "visible": true
+                  },
+                  {
+                    "fieldFormat": {
+                      "type": "number",
+                      "maximumFractionDigits": 0,
+                      "useGrouping": "always"
+                    },
+                    "fieldName": "Hydrocodone_SA",
+                    "format": {
+                      "digitSeparator": true,
+                      "places": 0
+                    },
+                    "isEditable": true,
+                    "label": "Hydrocodone (Short Acting)",
+                    "tooltip": "",
+                    "visible": true
+                  },
+                  {
+                    "fieldFormat": {
+                      "type": "number",
+                      "maximumFractionDigits": 0,
+                      "useGrouping": "always"
+                    },
+                    "fieldName": "Hydromorphone_LA",
+                    "format": {
+                      "digitSeparator": true,
+                      "places": 0
+                    },
+                    "isEditable": true,
+                    "label": "Hydromorphone (Long Acting)",
+                    "tooltip": "",
+                    "visible": true
+                  },
+                  {
+                    "fieldFormat": {
+                      "type": "number",
+                      "maximumFractionDigits": 0,
+                      "useGrouping": "always"
+                    },
+                    "fieldName": "Hydromorphone_SA",
+                    "format": {
+                      "digitSeparator": true,
+                      "places": 0
+                    },
+                    "isEditable": true,
+                    "label": "Hydromorphone (Short Acting)",
+                    "tooltip": "",
+                    "visible": true
+                  },
+                  {
+                    "fieldFormat": {
+                      "type": "number",
+                      "maximumFractionDigits": 0,
+                      "useGrouping": "always"
+                    },
+                    "fieldName": "Lisdexamfetamine",
+                    "format": {
+                      "digitSeparator": true,
+                      "places": 0
+                    },
+                    "isEditable": true,
+                    "label": "Lisdexamfetamine",
+                    "tooltip": "",
+                    "visible": true
+                  },
+                  {
+                    "fieldFormat": {
+                      "type": "number",
+                      "maximumFractionDigits": 0,
+                      "useGrouping": "always"
+                    },
+                    "fieldName": "Lorazepam",
+                    "format": {
+                      "digitSeparator": true,
+                      "places": 0
+                    },
+                    "isEditable": true,
+                    "label": "Lorazepam",
+                    "tooltip": "",
+                    "visible": true
+                  },
+                  {
+                    "fieldFormat": {
+                      "type": "number",
+                      "maximumFractionDigits": 0,
+                      "useGrouping": "always"
+                    },
+                    "fieldName": "Meperidine",
+                    "format": {
+                      "digitSeparator": true,
+                      "places": 0
+                    },
+                    "isEditable": true,
+                    "label": "Meperidine",
+                    "tooltip": "",
+                    "visible": true
+                  },
+                  {
+                    "fieldFormat": {
+                      "type": "number",
+                      "maximumFractionDigits": 0,
+                      "useGrouping": "always"
+                    },
+                    "fieldName": "Methadone",
+                    "format": {
+                      "digitSeparator": true,
+                      "places": 0
+                    },
+                    "isEditable": true,
+                    "label": "Methadone",
+                    "tooltip": "",
+                    "visible": true
+                  },
+                  {
+                    "fieldFormat": {
+                      "type": "number",
+                      "maximumFractionDigits": 0,
+                      "useGrouping": "always"
+                    },
+                    "fieldName": "Methylphenidate",
+                    "format": {
+                      "digitSeparator": true,
+                      "places": 0
+                    },
+                    "isEditable": true,
+                    "label": "Methylphenidate",
+                    "tooltip": "",
+                    "visible": true
+                  },
+                  {
+                    "fieldFormat": {
+                      "type": "number",
+                      "maximumFractionDigits": 0,
+                      "useGrouping": "always"
+                    },
+                    "fieldName": "Morphine_LA",
+                    "format": {
+                      "digitSeparator": true,
+                      "places": 0
+                    },
+                    "isEditable": true,
+                    "label": "Morphine (Long Acting)",
+                    "tooltip": "",
+                    "visible": true
+                  },
+                  {
+                    "fieldFormat": {
+                      "type": "number",
+                      "maximumFractionDigits": 0,
+                      "useGrouping": "always"
+                    },
+                    "fieldName": "Morphine_SA",
+                    "format": {
+                      "digitSeparator": true,
+                      "places": 0
+                    },
+                    "isEditable": true,
+                    "label": "Morphine (Short Acting)",
+                    "tooltip": "",
+                    "visible": true
+                  },
+                  {
+                    "fieldFormat": {
+                      "type": "number",
+                      "maximumFractionDigits": 0,
+                      "useGrouping": "always"
+                    },
+                    "fieldName": "Naloxone",
+                    "format": {
+                      "digitSeparator": true,
+                      "places": 0
+                    },
+                    "isEditable": true,
+                    "label": "Naloxone",
+                    "tooltip": "",
+                    "visible": true
+                  },
+                  {
+                    "fieldFormat": {
+                      "type": "number",
+                      "maximumFractionDigits": 0,
+                      "useGrouping": "always"
+                    },
+                    "fieldName": "Opium",
+                    "format": {
+                      "digitSeparator": true,
+                      "places": 0
+                    },
+                    "isEditable": true,
+                    "label": "Opium",
+                    "tooltip": "",
+                    "visible": true
+                  },
+                  {
+                    "fieldFormat": {
+                      "type": "number",
+                      "maximumFractionDigits": 0,
+                      "useGrouping": "always"
+                    },
+                    "fieldName": "Oxazepam",
+                    "format": {
+                      "digitSeparator": true,
+                      "places": 0
+                    },
+                    "isEditable": true,
+                    "label": "Oxazepam",
+                    "tooltip": "",
+                    "visible": true
+                  },
+                  {
+                    "fieldFormat": {
+                      "type": "number",
+                      "maximumFractionDigits": 0,
+                      "useGrouping": "always"
+                    },
+                    "fieldName": "Oxycodone_LA",
+                    "format": {
+                      "digitSeparator": true,
+                      "places": 0
+                    },
+                    "isEditable": true,
+                    "label": "Oxycodone (Long Acting)",
+                    "tooltip": "",
+                    "visible": true
+                  },
+                  {
+                    "fieldFormat": {
+                      "type": "number",
+                      "maximumFractionDigits": 0,
+                      "useGrouping": "always"
+                    },
+                    "fieldName": "Oxycodone_SA",
+                    "format": {
+                      "digitSeparator": true,
+                      "places": 0
+                    },
+                    "isEditable": true,
+                    "label": "Oxycodone (Short Acting)",
+                    "tooltip": "",
+                    "visible": true
+                  },
+                  {
+                    "fieldFormat": {
+                      "type": "number",
+                      "maximumFractionDigits": 0,
+                      "useGrouping": "always"
+                    },
+                    "fieldName": "Oxymorphone_LA",
+                    "format": {
+                      "digitSeparator": true,
+                      "places": 0
+                    },
+                    "isEditable": true,
+                    "label": "Oxymorphone (Long Acting)",
+                    "tooltip": "",
+                    "visible": true
+                  },
+                  {
+                    "fieldFormat": {
+                      "type": "number",
+                      "maximumFractionDigits": 0,
+                      "useGrouping": "always"
+                    },
+                    "fieldName": "Oxymorphone_SA",
+                    "format": {
+                      "digitSeparator": true,
+                      "places": 0
+                    },
+                    "isEditable": true,
+                    "label": "Oxymorphone (Short Acting)",
+                    "tooltip": "",
+                    "visible": true
+                  },
+                  {
+                    "fieldFormat": {
+                      "type": "number",
+                      "maximumFractionDigits": 0,
+                      "useGrouping": "always"
+                    },
+                    "fieldName": "Pentazocine",
+                    "format": {
+                      "digitSeparator": true,
+                      "places": 0
+                    },
+                    "isEditable": true,
+                    "label": "Pentazocine",
+                    "tooltip": "",
+                    "visible": true
+                  },
+                  {
+                    "fieldFormat": {
+                      "type": "number",
+                      "maximumFractionDigits": 0,
+                      "useGrouping": "always"
+                    },
+                    "fieldName": "Pregabalin",
+                    "format": {
+                      "digitSeparator": true,
+                      "places": 0
+                    },
+                    "isEditable": true,
+                    "label": "Pregabalin",
+                    "visible": true
+                  },
+                  {
+                    "fieldFormat": {
+                      "type": "number",
+                      "maximumFractionDigits": 0,
+                      "useGrouping": "always"
+                    },
+                    "fieldName": "Tapentadol_LA",
+                    "format": {
+                      "digitSeparator": true,
+                      "places": 0
+                    },
+                    "isEditable": true,
+                    "label": "Tapentadol (Long Acting)",
+                    "tooltip": "",
+                    "visible": true
+                  },
+                  {
+                    "fieldFormat": {
+                      "type": "number",
+                      "maximumFractionDigits": 0,
+                      "useGrouping": "always"
+                    },
+                    "fieldName": "Tapentadol_SA",
+                    "format": {
+                      "digitSeparator": true,
+                      "places": 0
+                    },
+                    "isEditable": true,
+                    "label": "Tapentadol (Short Acting)",
+                    "tooltip": "",
+                    "visible": true
+                  },
+                  {
+                    "fieldFormat": {
+                      "type": "number",
+                      "maximumFractionDigits": 0,
+                      "useGrouping": "always"
+                    },
+                    "fieldName": "Temazepam",
+                    "format": {
+                      "digitSeparator": true,
+                      "places": 0
+                    },
+                    "isEditable": true,
+                    "label": "Temazepam",
+                    "tooltip": "",
+                    "visible": true
+                  },
+                  {
+                    "fieldFormat": {
+                      "type": "number",
+                      "maximumFractionDigits": 0,
+                      "useGrouping": "always"
+                    },
+                    "fieldName": "Tramadol_LA",
+                    "format": {
+                      "digitSeparator": true,
+                      "places": 0
+                    },
+                    "isEditable": true,
+                    "label": "Tramadol (Long Acting)",
+                    "tooltip": "",
+                    "visible": true
+                  },
+                  {
+                    "fieldFormat": {
+                      "type": "number",
+                      "maximumFractionDigits": 0,
+                      "useGrouping": "always"
+                    },
+                    "fieldName": "Tramadol_SA",
+                    "format": {
+                      "digitSeparator": true,
+                      "places": 0
+                    },
+                    "isEditable": true,
+                    "label": "Tramadol (Short Acting)",
+                    "tooltip": "",
+                    "visible": true
+                  },
+                  {
+                    "fieldFormat": {
+                      "type": "number",
+                      "maximumFractionDigits": 0,
+                      "useGrouping": "always"
+                    },
+                    "fieldName": "Triazolam",
+                    "format": {
+                      "digitSeparator": true,
+                      "places": 0
+                    },
+                    "isEditable": true,
+                    "label": "Triazolam",
+                    "tooltip": "",
+                    "visible": true
+                  },
+                  {
+                    "fieldFormat": {
+                      "type": "number",
+                      "maximumFractionDigits": 0,
+                      "useGrouping": "always"
+                    },
+                    "fieldName": "Zolpidem",
+                    "format": {
+                      "digitSeparator": true,
+                      "places": 0
+                    },
+                    "isEditable": true,
+                    "label": "Zolpidem",
+                    "tooltip": "",
+                    "visible": true
+                  }
+                ],
+                "title": ""
+              }
+            ],
+            "expressionInfos": [
+              {
+                "name": "expr0",
+                "title": "New expression",
+                "expression": "// Write a script to return a value to show in the pop-up. \r\n// For example, get the average of 4 fields:\r\n// Average($feature.SalesQ1, $feature.SalesQ2, $feature.SalesQ3, $feature.SalesQ4)\r\n",
+                "returnType": "string"
+              }
+            ],
+            "fieldInfos": [
+              {
+                "fieldName": "fillyear",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "isEditable": true,
+                "label": "fillyear",
+                "tooltip": "",
+                "visible": false
+              },
+              {
+                "fieldName": "state",
+                "isEditable": true,
+                "label": "state",
+                "tooltip": "",
+                "visible": false
+              },
+              {
+                "fieldName": "county",
+                "isEditable": true,
+                "label": "County",
+                "tooltip": "",
+                "visible": true
+              },
+              {
+                "fieldName": "Alprazolam",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "isEditable": true,
+                "label": "Alprazolam",
+                "tooltip": "",
+                "visible": true
+              },
+              {
+                "fieldName": "Amphetamine",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "isEditable": true,
+                "label": "Amphetamine",
+                "tooltip": "",
+                "visible": true
+              },
+              {
+                "fieldName": "Baclofen",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "isEditable": true,
+                "label": "Baclofen",
+                "tooltip": "",
+                "visible": true
+              },
+              {
+                "fieldName": "Buprenorphine",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "isEditable": true,
+                "label": "Buprenorphine",
+                "tooltip": "",
+                "visible": true
+              },
+              {
+                "fieldName": "Butorphanol",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "isEditable": true,
+                "label": "Butorphanol",
+                "tooltip": "",
+                "visible": true
+              },
+              {
+                "fieldName": "Carisoprodol",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "isEditable": true,
+                "label": "Carisoprodol",
+                "tooltip": "",
+                "visible": true
+              },
+              {
+                "fieldName": "Chlordiazepoxide",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "isEditable": true,
+                "label": "Chlordiazepoxide",
+                "tooltip": "",
+                "visible": true
+              },
+              {
+                "fieldName": "Clobazam",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "isEditable": true,
+                "label": "Clobazam",
+                "tooltip": "",
+                "visible": true
+              },
+              {
+                "fieldName": "Clonazepam",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "isEditable": true,
+                "label": "Clonazepam",
+                "tooltip": "",
+                "visible": true
+              },
+              {
+                "fieldName": "Clorazepate",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "isEditable": true,
+                "label": "Clorazepate",
+                "tooltip": "",
+                "visible": true
+              },
+              {
+                "fieldName": "Codeine",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "isEditable": true,
+                "label": "Codeine",
+                "tooltip": "",
+                "visible": true
+              },
+              {
+                "fieldName": "Dexmethylphenidate",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "isEditable": true,
+                "label": "Dexmethylphenidate",
+                "tooltip": "",
+                "visible": true
+              },
+              {
+                "fieldName": "Dextroamphetamine",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "isEditable": true,
+                "label": "Dextroamphetamine",
+                "tooltip": "",
+                "visible": true
+              },
+              {
+                "fieldName": "Diazepam",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "isEditable": true,
+                "label": "Diazepam",
+                "tooltip": "",
+                "visible": true
+              },
+              {
+                "fieldName": "Dihydrocodeine",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "isEditable": true,
+                "label": "Dihydrocodeine",
+                "tooltip": "",
+                "visible": true
+              },
+              {
+                "fieldName": "Estazolam",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "isEditable": true,
+                "label": "Estazolam",
+                "tooltip": "",
+                "visible": true
+              },
+              {
+                "fieldName": "Fentanyl_LA",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "isEditable": true,
+                "label": "Fentanyl (Long Acting)",
+                "tooltip": "",
+                "visible": true
+              },
+              {
+                "fieldName": "Fentanyl_SA",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "isEditable": true,
+                "label": "Fentanyl (Short Acting)",
+                "tooltip": "",
+                "visible": true
+              },
+              {
+                "fieldName": "Flurazepam",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "isEditable": true,
+                "label": "Flurazepam",
+                "tooltip": "",
+                "visible": true
+              },
+              {
+                "fieldName": "Gabapentin",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "isEditable": true,
+                "label": "Gabapentin",
+                "tooltip": "",
+                "visible": true
+              },
+              {
+                "fieldName": "Hydrocodone_LA",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "isEditable": true,
+                "label": "Hydrocodone (Long Acting)",
+                "tooltip": "",
+                "visible": true
+              },
+              {
+                "fieldName": "Hydrocodone_SA",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "isEditable": true,
+                "label": "Hydrocodone (Short Acting)",
+                "tooltip": "",
+                "visible": true
+              },
+              {
+                "fieldName": "Hydromorphone_LA",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "isEditable": true,
+                "label": "Hydromorphone (Long Acting)",
+                "tooltip": "",
+                "visible": true
+              },
+              {
+                "fieldName": "Hydromorphone_SA",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "isEditable": true,
+                "label": "Hydromorphone (Short Acting)",
+                "tooltip": "",
+                "visible": true
+              },
+              {
+                "fieldName": "Lisdexamfetamine",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "isEditable": true,
+                "label": "Lisdexamfetamine",
+                "tooltip": "",
+                "visible": true
+              },
+              {
+                "fieldName": "Lorazepam",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "isEditable": true,
+                "label": "Lorazepam",
+                "tooltip": "",
+                "visible": true
+              },
+              {
+                "fieldName": "Meperidine",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "isEditable": true,
+                "label": "Meperidine",
+                "tooltip": "",
+                "visible": true
+              },
+              {
+                "fieldName": "Methadone",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "isEditable": true,
+                "label": "Methadone",
+                "tooltip": "",
+                "visible": true
+              },
+              {
+                "fieldName": "Methylphenidate",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "isEditable": true,
+                "label": "Methylphenidate",
+                "tooltip": "",
+                "visible": true
+              },
+              {
+                "fieldName": "Morphine_LA",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "isEditable": true,
+                "label": "Morphine (Long Acting)",
+                "tooltip": "",
+                "visible": true
+              },
+              {
+                "fieldName": "Morphine_SA",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "isEditable": true,
+                "label": "Morphine (Short Acting)",
+                "tooltip": "",
+                "visible": true
+              },
+              {
+                "fieldName": "Naloxone",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "isEditable": true,
+                "label": "Naloxone",
+                "tooltip": "",
+                "visible": true
+              },
+              {
+                "fieldName": "Opium",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "isEditable": true,
+                "label": "Opium",
+                "tooltip": "",
+                "visible": true
+              },
+              {
+                "fieldName": "Oxazepam",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "isEditable": true,
+                "label": "Oxazepam",
+                "tooltip": "",
+                "visible": true
+              },
+              {
+                "fieldName": "Oxycodone_LA",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "isEditable": true,
+                "label": "Oxycodone (Long Acting)",
+                "tooltip": "",
+                "visible": true
+              },
+              {
+                "fieldName": "Oxycodone_SA",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "isEditable": true,
+                "label": "Oxycodone (Short Acting)",
+                "tooltip": "",
+                "visible": true
+              },
+              {
+                "fieldName": "Oxymorphone_LA",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "isEditable": true,
+                "label": "Oxymorphone (Long Acting)",
+                "tooltip": "",
+                "visible": true
+              },
+              {
+                "fieldName": "C_Opioids",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "isEditable": true,
+                "label": "C_Opioids",
+                "tooltip": "",
+                "visible": false
+              },
+              {
+                "fieldName": "C_Benzodiazepines",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "isEditable": true,
+                "label": "C_Benzodiazepines",
+                "tooltip": "",
+                "visible": false
+              },
+              {
+                "fieldName": "C_Stimulants",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "isEditable": true,
+                "label": "C_Stimulants",
+                "tooltip": "",
+                "visible": false
+              },
+              {
+                "fieldName": "Sch_CII",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "isEditable": true,
+                "label": "Sch_CII",
+                "tooltip": "",
+                "visible": false
+              },
+              {
+                "fieldName": "Sch_CIII",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "isEditable": true,
+                "label": "Sch_CIII",
+                "tooltip": "",
+                "visible": false
+              },
+              {
+                "fieldName": "Sch_CIV",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "isEditable": true,
+                "label": "Sch_CIV",
+                "tooltip": "",
+                "visible": false
+              },
+              {
+                "fieldName": "Sch_CV",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "isEditable": true,
+                "label": "Sch_CV",
+                "tooltip": "",
+                "visible": false
+              },
+              {
+                "fieldName": "P_Insurance",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "isEditable": true,
+                "label": "P_Insurance",
+                "tooltip": "",
+                "visible": false
+              },
+              {
+                "fieldName": "P_Medicaid",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "isEditable": true,
+                "label": "P_Medicaid",
+                "tooltip": "",
+                "visible": false
+              },
+              {
+                "fieldName": "P_Medicare",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "isEditable": true,
+                "label": "P_Medicare",
+                "tooltip": "",
+                "visible": false
+              },
+              {
+                "fieldName": "P_Other_Cash_Insurance",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "isEditable": true,
+                "label": "P_Other_Cash_Insurance",
+                "tooltip": "",
+                "visible": false
+              },
+              {
+                "fieldName": "P_Private_Pay",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "isEditable": true,
+                "label": "P_Private_Pay",
+                "tooltip": "",
+                "visible": false
+              },
+              {
+                "fieldName": "P_Workers",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "isEditable": true,
+                "label": "P_Workers",
+                "tooltip": "",
+                "visible": false
+              },
+              {
+                "fieldName": "P_Military",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "isEditable": true,
+                "label": "P_Military",
+                "tooltip": "",
+                "visible": false
+              },
+              {
+                "fieldName": "P_NA",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "isEditable": true,
+                "label": "P_NA",
+                "tooltip": "",
+                "visible": false
+              },
+              {
+                "fieldName": "P_Indian_Nations",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "isEditable": true,
+                "label": "P_Indian_Nations",
+                "tooltip": "",
+                "visible": false
+              },
+              {
+                "fieldName": "Unknown_Gender",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "isEditable": true,
+                "label": "Unknown_Gender",
+                "tooltip": "",
+                "visible": false
+              },
+              {
+                "fieldName": "Male",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "isEditable": true,
+                "label": "Male",
+                "tooltip": "",
+                "visible": false
+              },
+              {
+                "fieldName": "Female",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "isEditable": true,
+                "label": "Female",
+                "tooltip": "",
+                "visible": false
+              },
+              {
+                "fieldName": "MME_0_19",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "isEditable": true,
+                "label": "MME_0_19",
+                "tooltip": "",
+                "visible": false
+              },
+              {
+                "fieldName": "MME_20_49",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "isEditable": true,
+                "label": "MME_20_49",
+                "tooltip": "",
+                "visible": false
+              },
+              {
+                "fieldName": "MME_50_89",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "isEditable": true,
+                "label": "MME_50_89",
+                "tooltip": "",
+                "visible": false
+              },
+              {
+                "fieldName": "MME_ge90",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "isEditable": true,
+                "label": "MME_ge90",
+                "tooltip": "",
+                "visible": false
+              },
+              {
+                "fieldName": "DS_0_3",
+                "isEditable": true,
+                "label": "DS_0_3",
+                "tooltip": "",
+                "visible": false
+              },
+              {
+                "fieldName": "DS_4_7",
+                "isEditable": true,
+                "label": "DS_4_7",
+                "tooltip": "",
+                "visible": false
+              },
+              {
+                "fieldName": "DS_8_14",
+                "isEditable": true,
+                "label": "DS_8_14",
+                "tooltip": "",
+                "visible": false
+              },
+              {
+                "fieldName": "DS_15_21",
+                "isEditable": true,
+                "label": "DS_15_21",
+                "tooltip": "",
+                "visible": false
+              },
+              {
+                "fieldName": "DS_22_30",
+                "isEditable": true,
+                "label": "DS_22_30",
+                "tooltip": "",
+                "visible": false
+              },
+              {
+                "fieldName": "DS_g30",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "isEditable": true,
+                "label": "DS_g30",
+                "tooltip": "",
+                "visible": false
+              },
+              {
+                "fieldName": "ObjectId",
+                "isEditable": true,
+                "label": "ObjectId",
+                "tooltip": "",
+                "visible": false
+              },
+              {
+                "fieldName": "D_0_3",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "isEditable": true,
+                "label": "D_0_3",
+                "visible": false
+              },
+              {
+                "fieldName": "D_4_7",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "isEditable": true,
+                "label": "D_4_7",
+                "visible": false
+              },
+              {
+                "fieldName": "D_8_14",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "isEditable": true,
+                "label": "D_8_14",
+                "visible": false
+              },
+              {
+                "fieldName": "D_15_21",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "isEditable": true,
+                "label": "D_15_21",
+                "visible": false
+              },
+              {
+                "fieldName": "D_22_30",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "isEditable": true,
+                "label": "D_22_30",
+                "visible": false
+              },
+              {
+                "fieldName": "Oxymorphone_SA",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "isEditable": true,
+                "label": "Oxymorphone (Short Acting)",
+                "tooltip": "",
+                "visible": true
+              },
+              {
+                "fieldName": "Pentazocine",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "isEditable": true,
+                "label": "Pentazocine",
+                "tooltip": "",
+                "visible": true
+              },
+              {
+                "fieldName": "Pregabalin",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "isEditable": true,
+                "label": "Pregabalin",
+                "visible": true
+              },
+              {
+                "fieldName": "Tapentadol_LA",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "isEditable": true,
+                "label": "Tapentadol (Long Acting)",
+                "tooltip": "",
+                "visible": true
+              },
+              {
+                "fieldName": "Tapentadol_SA",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "isEditable": true,
+                "label": "Tapentadol (Short Acting)",
+                "tooltip": "",
+                "visible": true
+              },
+              {
+                "fieldName": "Temazepam",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "isEditable": true,
+                "label": "Temazepam",
+                "tooltip": "",
+                "visible": true
+              },
+              {
+                "fieldName": "Tramadol_LA",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "isEditable": true,
+                "label": "Tramadol (Long Acting)",
+                "tooltip": "",
+                "visible": true
+              },
+              {
+                "fieldName": "Tramadol_SA",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "isEditable": true,
+                "label": "Tramadol (Short Acting)",
+                "tooltip": "",
+                "visible": true
+              },
+              {
+                "fieldName": "Triazolam",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "isEditable": true,
+                "label": "Triazolam",
+                "tooltip": "",
+                "visible": true
+              },
+              {
+                "fieldName": "Zolpidem",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "isEditable": true,
+                "label": "Zolpidem",
+                "tooltip": "",
+                "visible": true
+              },
+              {
+                "fieldName": "expression/expr0",
+                "isEditable": true,
+                "visible": false
+              }
+            ],
+            "title": "Number of Doses (pills) per Drug"
+          }
+        }
+      ],
+      "layerType": "GroupLayer",
+      "blendMode": "normal"
+    }
+  ],
+  "baseMap": {
+    "baseMapLayers": [
+      {
+        "id": "World_Light_Gray_Base_1486",
+        "opacity": 1,
+        "title": "World Light Gray Canvas Base",
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer",
+        "visibility": true,
+        "layerType": "ArcGISTiledMapServiceLayer"
+      },
+      {
+        "id": "World_Light_Gray_Reference_8656",
+        "opacity": 1,
+        "title": "World Light Gray Reference",
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Reference/MapServer",
+        "visibility": true,
+        "layerType": "ArcGISTiledMapServiceLayer",
+        "isReference": true
+      }
+    ],
+    "title": "Light Gray Canvas"
+  },
+  "authoringApp": "ArcGISMapViewer",
+  "authoringAppVersion": "2026.2",
+  "background": {
+    "color": [
+      255,
+      255,
+      255,
+      255
+    ]
+  },
+  "initialState": {
+    "viewpoint": {
+      "scale": 4622324.434309,
+      "targetGeometry": {
+        "spatialReference": {
+          "latestWkid": 3857,
+          "wkid": 102100
+        },
+        "xmin": -9581643.009381613,
+        "ymin": 4182861.3708733064,
+        "xmax": -8292608.964380743,
+        "ymax": 5228519.91781424
+      }
+    }
+  },
+  "spatialReference": {
+    "latestWkid": 3857,
+    "wkid": 102100
+  },
+  "timeZone": "system",
+  "version": "2.37"
+}
